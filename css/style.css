@@ -1,0 +1,39 @@
+* {}
+
+.wrapper {
+    margin: 50px auto;
+    width: 400px;
+    background-color: #3B7485;
+    text-align: center;
+    /*color: #001947;*/
+    padding: 20px 40px;
+}
+
+.row .screen {
+    width: 75%;
+    display: table;
+    text-align: right;
+    padding: 5px 10px;
+    margin-left: 40px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 1px solid #001947;
+    background-color: #AFBEBF;
+    color: #3B7485;
+}
+
+.row .button {
+    display: inline-block;
+    width: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #001947;
+    color: #AFBEBF;
+    cursor: pointer;
+}
+
+.row .button:active {
+    color: #001947;
+    background-color: #AFBEBF;
+    font-weight: bold;
+}
